@@ -1,8 +1,8 @@
 {
   "name": "react-simple-copy",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This component is used to copy text to clipboard",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "export NODE_ENV=development && webpack-dev-server",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/abelce/react-simple-copy.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/abelce/react-simple-copy/issues"
   },
