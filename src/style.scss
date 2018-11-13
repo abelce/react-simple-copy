@@ -1,0 +1,27 @@
+$font-size: 14px;
+.copy {
+  font-size: $font-size;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 32px;
+  :global {
+    .copy-input {
+      vertical-align: middle;
+      font-size: $font-size;
+      height: 32px;
+      width: 160px;
+      box-sizing: border-box;
+    }
+    .copy-btn-wrapper {
+      vertical-align: middle;
+      display: inline-block;
+      border: 1px solid #e8e8e8;
+      height: 100%;
+    }
+    .copy-btn {
+      vertical-align: middle;
+      height: 32px;
+      box-sizing: border-box;
+    }
+  }
+}

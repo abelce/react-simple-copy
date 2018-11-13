@@ -1,0 +1,27 @@
+{
+  "presets": [
+    ["env", {
+        //   关闭babel的模块化，使用webpack的模块化，这样可以使用tree-shaking
+      "modules": false,
+      "targets": {
+        "node": "4"
+      }
+    }],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    ["import", {
+        "libraryName": "antd",
+        "style": "css"
+    }],
+    ["transform-runtime"]
+  ],
+//   "env": {
+//     "production": {
+//       "plugins": [
+//         "transform-remove-console"
+//       ]
+//     }
+//   }
+}
